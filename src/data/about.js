@@ -1,24 +1,24 @@
 export const aboutMeDetails = {
   position: 'Junior Full Stack Developer',
   description:
-    "Greetings! I'm a driven developer with a passion for crafting immersive digital experiences. My expertise lies in HTML, CSS, JavaScript, React, and Node.js. Collaborating within teams has equipped me with practical experience, enhancing my ability to seamlessly integrate my skills into diverse projects",
+    "Greetings! I am a dedicated and versatile engineer possessing a robust multidisciplinary skill set in mechatronics and software development, eager to contribute to your team. I am committed to professional growth through continuous learning and hands-on experience, with a strong desire to leverage my expertise and drive innovation in your esteemed organization.",
 };
 
 export const aboutList1 = [
   {
     id: 1,
     description: 'Email',
-    value: 'juandelacruz@email.com',
+    value: 'magambamj@gmail.com',
   },
   {
     id: 2,
     description: 'Phone',
-    value: '+639123456789',
+    value: '+81 070 9379 8035',
   },
   {
     id: 3,
-    description: 'City',
-    value: 'Baguio City',
+    description: 'Location',
+    value: 'Tokyo',
   },
 ];
 
@@ -26,38 +26,32 @@ export const aboutList2 = [
   {
     id: 1,
     description: 'Skills',
-    value: 'HTML, CSS, SASS, JavaScript, React, Node',
+    value: 'HTML, CSS, JavaScript, React, Node, Siemens PLC',
   },
   {
     id: 2,
     description: 'Hobbies',
-    value: 'Basketball, Computer Games, Hiking',
+    value: 'Anime, Computer Games, Hiking',
   },
   {
     id: 3,
     description: 'Languages Spoken',
-    value: 'English, Filipino',
+    value: 'English, Filipino, Japanese',
   },
 ];
 
 export const aboutList3 = [
   {
     id: 1,
-    school: 'Hogwarts University',
-    year: '2006',
-    course: 'Elementary',
+    school: 'Tokyo Japanese Academy',
+    year: '2026',
+    course: 'Japanese Language and Culture Studies',
   },
   {
     id: 2,
-    school: 'Hogwarts University',
-    year: '2012',
-    course: 'Senior High School',
-  },
-  {
-    id: 3,
-    school: 'Hogwarts University',
-    year: '2016',
-    course: 'Bachelor of Science in Computer Science',
+    school: 'Saint Louis University',
+    year: '2020',
+    course: 'Bachelor of Science in Mechatronics Engineering',
   },
 ];
 export const aboutList4 = [
@@ -65,6 +59,12 @@ export const aboutList4 = [
     id: 1,
     company: 'GoIT Bootcamp',
     year: '2024',
-    position: 'Full Stack Developer',
+    position: 'Full Stack Deeveloper'
+  },
+  {
+    id: 2,
+    company: 'Instrumentation and Control Specialist',
+    year: '2022',
+    position: 'System Engineer',
   },
 ];
