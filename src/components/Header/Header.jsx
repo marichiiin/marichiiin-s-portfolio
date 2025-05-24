@@ -4,17 +4,21 @@ import { Sidebar } from '../Sidebar/Sidebar';
 import { MdOutlineMenu } from 'react-icons/md';
 import { useToggle } from '../../hooks/useToggle';
 import { Navbar } from '../../components/Navbar/Navbar';
+import { DarkLightMode } from '../DarkLightMode/DarkLightMode';
 
 export const Header = () => {
   const { isOpen: isSidebarOpen, toggle: toggleSidebar } = useToggle(false);
 
   return (
     <header className={css.header}>
+      {/* Navbar */}
+      <Navbar />
+
       {/* LOGO */}
       <Logo />
 
-      {/* Navbar */}
-      <Navbar />
+      {/* Toggle for Dark or Light Mode */}
+      <DarkLightMode />
 
       {/* HAMBURGER ICON */}
       <MdOutlineMenu
