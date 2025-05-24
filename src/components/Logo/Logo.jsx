@@ -9,7 +9,7 @@ export const Logo = () => {
         end
         className={({ isActive }) => (isActive ? css.linkActive : css.link)}
       >
-        <img src="../../public/Logo.svg" alt="MJ's Logo" className={css.logo} />
+        <img src="/Logo.svg" alt="MJ's Logo" className={css.logo} />
       </NavLink>
     </div>
   );
