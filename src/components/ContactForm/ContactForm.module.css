@@ -20,6 +20,7 @@
   margin-bottom: 40px;
   row-gap: 40px;
   padding: 10px 20px;
+  color: var(--PRIMARY);
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -44,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--DARK);
+  color: var(--PRIMARY);
 }
 
 .contactDesc {
@@ -82,10 +83,10 @@
 .formTextArea {
   display: block;
   border: none;
-  border-bottom: 1px solid var(--DARK);
+  border-bottom: 1px solid var(--SECONDARY);
   background-color: transparent;
   outline: transparent;
-  color: var(--DARK);
+  color: var(--SECONDARY);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -106,7 +107,7 @@
 .formLabel {
   position: absolute;
   top: -20px;
-  color: var(--DARK);
+  color: var(--PRIMARY);
   font-weight: 700;
   font-size: 14px;
   line-height: 0.87;
@@ -127,7 +128,7 @@
 .formInput::placeholder,
 .formTextArea::placeholder {
   font-size: 14px;
-  color: var(--PRIMARY);
+  color: var(--SECONDARY);
 }
 
 .formTextArea {

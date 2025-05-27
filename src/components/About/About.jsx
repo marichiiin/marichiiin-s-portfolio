@@ -10,14 +10,14 @@ export const About = () => {
     <div className={css.aboutContainer}>
       {/* ABOUT TOP PORTION */}
       <div className={css.topPortion}>
-        {/* About Image */}
+        {/* About Image
         <img
           className={css.aboutImage}
           src={aboutImage}
           alt="Mary Jane Magamba"
           width="300"
           height="400"
-        />
+        /> */}
 
         {/* About thumb details*/}
         <div className={css.topWrap}>
@@ -31,7 +31,7 @@ export const About = () => {
               {aboutList1.map(({ id, description, value }) => (
                 <li className={css.aboutListItem} key={id}>
                   <pre className={css.pre}></pre>
-                  <strong>{description}: &nbsp;</strong>
+                  <strong className={css.aboutListItemTitle}>{description}: &nbsp;</strong>
                   <span>{value}</span>
                 </li>
               ))}
@@ -42,7 +42,7 @@ export const About = () => {
               {aboutList2.map(({ id, description, value }) => (
                 <li className={css.aboutListItem} key={id}>
                   <pre className={css.pre}></pre>
-                  <strong>{description}: &nbsp;</strong>
+                  <strong className={css.aboutListItemTitle}>{description}: &nbsp;</strong>
                   <span>{value}</span>
                 </li>
               ))}
@@ -61,7 +61,7 @@ export const About = () => {
               <li className={css.aboutListItem} key={id}>
                 <pre className={css.pre}></pre>
                 <span>
-                  <strong>{school}</strong> | {year} | {course}
+                  <strong className={css.aboutListItemTitle}>{school}</strong> | {year} | {course}
                 </span>
               </li>
             ))}
@@ -76,7 +76,7 @@ export const About = () => {
               <li className={css.aboutListItem} key={id}>
                 <pre className={css.pre}></pre>
                 <span>
-                  <strong>{company}</strong> | {year} | {position}
+                  <strong className={css.aboutListItemTitle}>{company}</strong> | {year} | {position}
                 </span>
               </li>
             ))}

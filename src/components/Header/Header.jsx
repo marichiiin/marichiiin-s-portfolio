@@ -11,14 +11,14 @@ export const Header = () => {
 
   return (
     <header className={css.header}>
-      {/* Navbar */}
-      <Navbar />
-
       {/* LOGO */}
       <Logo />
 
+      {/* Navbar */}
+      <Navbar />
+
       {/* Toggle for Dark or Light Mode */}
-      <DarkLightMode />
+      {/* <DarkLightMode /> */}
 
       {/* HAMBURGER ICON */}
       <MdOutlineMenu

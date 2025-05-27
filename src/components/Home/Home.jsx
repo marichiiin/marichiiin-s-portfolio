@@ -14,7 +14,7 @@ export const Home = () => {
           I am a {position} from {country}
         </p>
         {/* Social Links Component */}
-        <Socials />
+        {/* <Socials /> */}
       </div>
 
       <img

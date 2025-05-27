@@ -1,20 +1,61 @@
 /* Custom Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
 /* CSS VARIABLES */
+/* 
+Light Mode
+  --color-bg: #F5F1ED;
+  --color-header: #5C1F2B;
+  --color-text: #2C2C2E;
+  --color-accent: #C4A95B;
+  --color-button-bg: #5C1F2B;
+  --color-button-hover: #3F141D;
+  --color-button-text: #FFFFFF;
+
+Dark Mode
+  --color-bg: #1A1E2D;
+  --color-header: #C4A95B;
+  --color-text: #E0E0E3;
+  --color-accent: #5C1F2B;
+  --color-button-bg: #C4A95B;
+  --color-button-hover: #A88B45;
+  --color-button-text: #1A1E2D;
+
+  --primary-color: #651c29; Deep Burgundy 
+  --secondary-color: #2e2e2e;  Very Dark Gray 
+  --background-color: #f4efe4; Light Beige 
+  --text-color: #2e2e2e; Dark Gray
+  --accent-color: #b58b16;  Gold-like for highlights 
+  --button-bg: #651c29;
+  --button-text: #f4efe4;
+
+   Dark Mode 
+  --dark-background: #121619;
+  --dark-primary: #b58b16; /* Gold for headlines in dark 
+  --dark-secondary: #d9d9d9; /* Light gray for body text 
+  --dark-accent: #651c29; /* Burgundy as an accent in dark mode 
+  --dark-button-bg: #651c29;
+  --dark-button-text: #f4efe4;
+*/
+
 :root {
-  --PRIMARY: #e85d04;
-  --SECONDARY: #f48c06;
+  --color-bg: #121619;
+  --PRIMARY: #b58b16;
+  --SECONDARY: #d9d9d9;
   --DARK: #303030;
   --LIGHT: #edf2f4;
+  --Primary-font: 'Kavoon';
+  --Secondary-font: 'Nunito';
 }
 
 body {
+  background-color: var(--color-bg);
   margin: 0;
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--SECONDARY);
 }
 
 code {
