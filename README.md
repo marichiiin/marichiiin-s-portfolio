@@ -1,8 +1,8 @@
 # Mary Jane Magamba – Portfolio Website
 
 ## 🌐 Language
-- [English](#english)
-- [日本語](#日本語japanese)
+- [English](#-english)
+- [日本語](#-日本語japanese)
 
 ## 📌 English 
 This repository contains the source code for my personal web developer portfolio.
