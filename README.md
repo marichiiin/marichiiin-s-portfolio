@@ -1,6 +1,10 @@
 # Mary Jane Magamba – Portfolio Website
 
-# 📌 English
+## 🌐 Language
+- [English](#english)
+- [日本語](#日本語japanese)
+
+# 📌 English 
 This repository contains the source code for my personal web developer portfolio.
 The portfolio showcases my web development skills and projects created as part of my learning and training, including projects from the GoIT Full Stack Developer program.
 
