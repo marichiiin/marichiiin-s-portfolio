@@ -4,7 +4,7 @@
 - [English](#english)
 - [日本語](#日本語japanese)
 
-# 📌 English 
+## 📌 English 
 This repository contains the source code for my personal web developer portfolio.
 The portfolio showcases my web development skills and projects created as part of my learning and training, including projects from the GoIT Full Stack Developer program.
 
@@ -36,7 +36,7 @@ npm run dev
 - Portfolio: https://maryjane-magamba-portfolio.vercel.app/
 
 
-# 📌 日本語（Japanese）
+## 📌 日本語（Japanese）
 このリポジトリは、私のWeb開発者としての個人ポートフォリオサイトのソースコードです。
 GoITフルスタック開発者コースでの学習成果を含む、Webアプリケーション開発のプロジェクトを掲載しています。
 
