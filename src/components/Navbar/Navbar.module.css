@@ -1,3 +1,10 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100px; */
+  justify-self: left;
+}
 .linkList {
   display: none;
 
@@ -21,7 +28,7 @@
 }
 
 .linkActive {
-  composes: link;
-  color: var(--PRIMARY);
+  composes: link; /* Even though it has a squiggly line this still works. Ignore the squiggly lines  */
+  color: var(--PRßIMARY);
   font-weight: 700;
 }

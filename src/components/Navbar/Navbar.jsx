@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
-    <nav>
+    <nav className={css.navBar}>
       {/* Navbar Links */}
       <ul className={css.linkList}>
         {navLinks.map(({ id, link, path }) => (

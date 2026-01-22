@@ -15,18 +15,45 @@ export const projects = [
     src: project1,
     name: 'Web Studio',
     href: 'https://marichiiin.github.io/goit-markup-hw-07/',
+    github: 'https://github.com/marichiiin/goit-markup-hw-07',
+    overview:
+      'A responsive website created as part of the GoIT Full Stack program, focusing on semantic HTML and CSS layout.',
+    features: [
+      'Responsive layout',
+      'Semantic HTML structure',
+      'Mobile-first design',
+    ],
+    techStack: ['HTML', 'CSS', 'JavaScript'],
   },
   {
     id: 2,
     src: project2,
     name: 'React Components',
     href: 'https://marichiiin.github.io/goit-react-hw-01-components/',
+    github: 'https://github.com/marichiiin/goit-react-hw-01-components',
+    overview:
+      'A React project demonstrating component-based architecture and reusable UI elements.',
+    features: [
+      'Reusable React components',
+      'Props-based data flow',
+      'Clean component structure',
+    ],
+    techStack: ['React', 'JavaScript'],
   },
   {
     id: 3,
     src: project3,
     name: 'Color Switcher',
     href: 'https://marichiiin.github.io/goit-js-hw-09/',
+    github: 'https://github.com/marichiiin/goit-js-hw-09',
+    overview:
+      'A JavaScript application that dynamically changes UI colors based on user interaction.',
+    features: [
+      'DOM manipulation',
+      'Event handling',
+      'Dynamic styling',
+    ],
+    techStack: ['JavaScript', 'HTML', 'CSS'],
   },
   // {
   //   id: 4,

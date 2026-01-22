@@ -25,12 +25,11 @@
 .projectItem {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
   z-index: 1;
   background: var(--SECONDARY);
 }
 
-.projectItem::before {
+/* .projectItem::before {
   content: '';
   background: var(--SECONDARY);
   position: absolute;
@@ -63,7 +62,7 @@
 .projectItem:hover .projectInfo::after {
   bottom: 15px;
   right: 15px;
-}
+} */
 
 .projectInfo {
   opacity: 0;
@@ -115,8 +114,8 @@
   font-size: 28px;
   transition: all ease-in-out 0.3s;
 }
-
+/* 
 .projectLink:hover {
   transition: all ease-in-out 0.3s;
   color: var(--DARK);
-}
+} */

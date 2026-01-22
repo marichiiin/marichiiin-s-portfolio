@@ -11,11 +11,12 @@ export const Header = () => {
 
   return (
     <header className={css.header}>
-      {/* LOGO */}
-      <Logo />
 
       {/* Navbar */}
       <Navbar />
+
+      {/* LOGO */}
+      <Logo />
 
       {/* Toggle for Dark or Light Mode */}
       {/* <DarkLightMode /> */}

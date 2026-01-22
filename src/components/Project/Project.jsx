@@ -1,5 +1,6 @@
 import css from './Project.module.css';
 import { projects } from '../../data/project';
+import { Link } from 'react-router-dom';
 
 export const Project = () => {
   return (
@@ -7,14 +8,16 @@ export const Project = () => {
       <ul className={css.projectList}>
         {projects.map(({ id, src, href, name }) => (
           <li className={css.projectItem} key={id}>
-            <img
-              src={src}
-              className={css.img__fluid}
-              alt={name}
-              width={260}
-              height={240}
-            />
-            <div className={css.projectInfo}>
+            <Link to={`/project/${id}`}>
+              <img
+                src={src}
+                className={css.img__fluid}
+                alt={name}
+                width={260}
+                height={240}
+              />
+            </Link>
+            {/* <div className={css.projectInfo}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -23,7 +26,7 @@ export const Project = () => {
               >
                 {name}
               </a>
-            </div>
+            </div> */}
           </li>
         ))}
       </ul>
